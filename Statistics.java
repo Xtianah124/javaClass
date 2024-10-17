@@ -1,13 +1,17 @@
 import.java.util.Scanner;
 
-public class Statistics{
+public class Values{
  public static void main(String[] args);
 
   Scanner input = new Scanner(System.in);
 
-  System.out.print("Enter the estimated number of stones");
-   String enter = input.nextLine();
+  System.out.print("Enter first integers");
+   int num1 = input.nextInt();
 
+  System.out.print("Enter second integers");
+   int num2 = input.nextInt();
+
+  
   
 
 }
