@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 Scanner input = new Scanner(System.in);
 
+// prompt the user to enter five numbers
 System.out.print("Enter a number: ");
  int num1 = input.nextInt();
 
@@ -20,7 +21,12 @@ System.out.print("Enter a number: ");
 System.out.print("Enter a number: ");
  int num5 = input.nextInt();
 
- int negative = 0;
+/* name the variables and add 1 to the calculations
+   if it is negative, increment numbers by one,
+   if it is positive, increment numbers  by one,
+   then if it's zero, increment numbers by one */ 
+ 
+int negative = 0;
  int positive = 0;
  int zero = 0;
 
