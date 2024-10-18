@@ -8,15 +8,15 @@ import java.util.Scanner;
    System.out.print("Enter a three digit number: ");
   int userInput = input.nextInt();
 
-  int num1= userInput % 10;
+  int number1= userInput % 10;
  
-  int num2 = userInput % 100;
+  int number2 = userInput % 100;
 
-  int num3 = num2 / 10;
+  int number3 = number2 / 10;
 
-  int num4 = num1 / 100;
+  int number4 = number1 / 100;
 
-  if (num1 == num2) {
+  if (number1 == number2) {
    System.out.print("number is a palindrome");
        }else {
     System.out.print("number is not a palindrome");
