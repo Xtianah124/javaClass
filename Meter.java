@@ -10,12 +10,6 @@ double feet = input.nextDouble();
 double meter = feet * 0.305;
 System.out.printf("%f", meter);
 
- 
-
-
-
-
-
 
 
 

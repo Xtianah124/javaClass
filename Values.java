@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 Scanner input = new Scanner(System.in);
 
-// prompt the user to enter five numbers
+//Tell the user to enter five numbers
 System.out.print("Enter a number: ");
  int num1 = input.nextInt();
 
@@ -79,20 +79,8 @@ if (num5 == 0){
 zero ++;
 }
 
+/**print final answer using the variable names from before*/ 
 System.out.printf("Negative numbers are %d%nPositive numbers are %d%nZero numbers are %d", negative, positive, zero);
-
-
-
-
-
-
-
-
-
-
-
-
- 
 
 
 
