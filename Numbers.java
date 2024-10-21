@@ -1,26 +1,36 @@
- import java.util.Scanner;
+import java.util.Scanner;
+public class Numbers{
+	public static void main(String[] args){
 
-    public class Numbers{
-      public static void main(String[] args){
-        
-         Scanner input = new Scanner(System.in);
-            
-          System.out.print("Enter 0 to 10 numbers");
-             int  = input.nextLine();
-     
-           int  =  0 to 10 numbers;
-           System.out.print("The squares are %d%n", squares);
-       
-            int squares = 0 to 10 numbers;
-             System.ot.print("The cubes are %d%n", cubes);
-       
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Enter number: ");
+		int userNumber = input.nextInt();
 
+		int largest = userNumber;
+		int smallest = userNumber;
+		int userResponse;
 
+		do {
+			System.out.print("Enter number: ");
+			number = input.nextInt();
 
+			if (number > largest){
+				largest = userNumber;
+			}
 
+			if (number < smallest){
 
+				smallest = userNumber;
+			}
 
+			System.out.print("Enter 0 to stop or any other number: ");
+			userResponse = input.nextInt();
 
-}
+		} while (userResponse != 0);
 
+		System.out.println("Largest: " + largest);
+		System.out.println("Smallest: " + smallest);
+
+	}
 }
