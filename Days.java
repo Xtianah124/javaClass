@@ -6,7 +6,7 @@ public static void main(String[] args){
 Scanner input = new Scanner(System.in);
 
 System.out.print("Enter a month number: ");
-int monthnumber = input.nextInt();
+int monthumber = input.nextInt();
 
 System.out.print("Enter a year: ");
 int year = input.nextInt();
