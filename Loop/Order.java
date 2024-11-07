@@ -10,15 +10,15 @@ Scanner input = new Scanner(System.in);
        do{
 
 	System.out.print("Enter a number: ");
-	int num1 = input.nextInt();
+	int numOne = input.nextInt();
 
 	System.out.print("Enter a number: ");
-	int num2 = input.nextInt();
+	int numTwo = input.nextInt();
 
 	System.out.print("Enter a number: ");
-	int num3 = input.nextInt();
+	int numThree = input.nextInt();
 
-		if (num3 > num2 && num2 > num1){
+		if (numThree > numTwo && numTwo > numOne){
  			System.out.print("the numbers are in increasing order");
 		}else{
     			System.out.print("the numbers are in decreasing order");

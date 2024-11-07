@@ -10,11 +10,11 @@ public class Integer{
 		
 			do{
 			System.out.print("Enter a number: ");
-			int number1 = input.nextInt();
+			int numberOne = input.nextInt();
 			System.out.print("Enter a number: ");
-			int number2 = input.nextInt();
+			int numberTwo = input.nextInt();
 			System.out.print("Enter a number: ");
-			int number3 = input.nextInt();
+			int numberThree = input.nextInt();
 			
 			
 			if (number1 % 5 == 0 && number1 % 11 == 0){

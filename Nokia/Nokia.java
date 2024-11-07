@@ -7,7 +7,7 @@ public class Nokia{
 	Scanner input = new Scanner(System.in);
 	
 
- 	String Menu = """
+ 	String menu = """
     	
 	Welcome dear customer,press
 
@@ -26,11 +26,10 @@ public class Nokia{
 	13. Sim Services
 """;
 
-
-System.out.println(Menu);
-
-
 String phoneBook = """
+Phonebook menu
+
+Press
 	1: Search
 	2: Service Nos.
 	3: Add name
@@ -42,16 +41,45 @@ String phoneBook = """
 	9: Speed dials
 	10: Voice tags
 
+
+
+
 """;
 
+System.out.println(menu);
+	int answer = input.nextInt();
+	switch(answer) {
 
-String options = """
-	1. Type of view
-	2. Memory status
-""";
+	case 1: System.out.print(phoneBook);
+		int phoneBookMenu = input.nextInt();
+
+		switch (phoneBookMenu){
+		case 1 -> System.out.print("Search"); 
+		case 2 -> System.out.print("Service Nos."); 
+		case 3 -> System.out.print("Add Name."); 
+		case 4 -> System.out.print("Erase"); 
+		case 5 -> System.out.print("Edit"); 
+		case 6 -> System.out.print("Assign Tones"); 
+		case 7 -> System.out.print("Send b'card"); 
+		case 8 -> {
+			System.out.print("Options: ");
+			System.out.print("Enter option");
+			int option = input.nextInt();
+			switch(option){
+			
+				case 1 -> System.out.print("Type of view");
+				case 2 -> System.out.print("Memory status");
+}
+}		
+		case 9 -> System.out.print("Speed dials");
+		case 10 -> System.out.print("Voice tags");
 
 
+}
+
+\**
 String messages = """
+message menu
 	1. Write messages
 	2. Inbox
 	3. Outbox 
@@ -65,12 +93,54 @@ String messages = """
 """;
 
 
+System.out.println(messages);
+	int messagesmenu = input.nextInt();
+	switch(answer) {
 
-String messageSettings = """
-	1. Set
-	2. Common
-	
-""";
+	case 1: System.out.print(messages);
+		int messagemenu = input.nextInt();
+		switch (messagemenu){
+		case 1 -> System.out.print("Write messages"); 
+		case 2 -> System.out.print("Inbox"); 
+		case 3 -> System.out.print("Outbox"); 
+		case 4 -> System.out.print("Picture messages"); 
+		case 5 -> System.out.print("Templates"); 
+		case 6 -> System.out.print("Smileys"); 
+		case 7 -> {
+			System.out.print("message settings: "); 
+			System.out.print("Enter message settings");
+			next1 = input.nextInt();
+			switch(next1){
+	                case 1 -> System.out.print("Set 1"); 
+
+}
+}
+	}
+                int next1 = input.nextInt();
+				switch(next1){
+		case 1 -> System.out.print("Messages centre number"); 
+		case 2 -> System.out.print("Mesages sent as"); 
+		case 3 -> System.out.print("Messages validity"); 
+			}
+
+			int next2 = input.nextInt(); 
+				switch(next2){	
+		case 1 -> System.out.print("Common");
+  			}
+			int next3 = input.nextInt();
+				switch(next3){
+		case 1 -> System.out.print("Delivery reports"); 
+		case 2 -> System.out.print("Reply via same centre"); 
+		case 3 -> System.out.print("Character support"); 
+			}
+		case 4 -> System.out.print("Info services"); 
+		case 5 -> System.out.print("Service command editor");
+	}
+}
+
+
+
+
 
 
 String set = """
@@ -98,7 +168,7 @@ String callRegister = """
 
 
 System.out.println("Enter Option");
-	int answer = input.nextInt();
+	
 
 
 	switch (answer){
@@ -110,10 +180,10 @@ System.out.println("Enter Option");
 
 
 System.out.println("Enter option");
-	int next1 = input.nextInt();
+	 next1 = input.nextInt();
 
 
-	switch (next1) {
+	Switch (next1){
 	
 	case 8 -> 
 	     System.out.println(options);
@@ -122,7 +192,7 @@ System.out.println("Enter option");
 	}
 
 System.out.println("Enter option");
-	int next2 = input.nextInt();
+next2 = input.nextInt();
 
          switch (next2){
 
@@ -211,13 +281,11 @@ System.out.println("Enter option")
 
 
 
-
-
-
-
-
-
+**/
 }
+
+
+
 }
 
 

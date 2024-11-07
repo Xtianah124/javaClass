@@ -5,7 +5,6 @@ public class Dowhile{
 
   Scanner input = new Scanner(System.in);
 	int sentinelValue = -1;
-   
       
 	do {
 
