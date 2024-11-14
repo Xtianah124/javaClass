@@ -2,17 +2,18 @@
 public class Rhombus{
 	public static void main(String[] args){
 
-	for(int numby = 0; numby < 7; numby++){
-	for(int numb = numby; numb > 1; numb++){
-		System.out.print(numb);
-	}
-
-	for(int number = 0; number <= 7; number++){
-	  for(int num = number; num > 0; num--){
-		System.out.print(num); 
+	for(int numberone = 1; numberone <= 7; numberone++){
+	  for(int numbertwo = 1; numbertwo < numberone; numbertwo++){
+		System.out.print(numbertwo+ " "); 
 	  }
 	System.out.println();
         }
-    }
-}
+
+	for(int numberone = 7; numberone > 1; numberone--){
+	   for(int numbertwo = 1; numbertwo < numberone; numbertwo++){
+		System.out.print(numbertwo+ " ");
+           }
+		System.out.println();
+	}
+     }
 }
