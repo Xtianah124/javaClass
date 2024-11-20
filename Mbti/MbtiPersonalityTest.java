@@ -43,7 +43,7 @@ public class MbtiPersonalityTest{
 	sensing[0] = "flag";
 	while(!sensing[0].equalsIgnoreCase("A") && !sensing[0].equalsIgnoreCase("B")){
 
-	System.out.print("1. A. Interpret literally\t B. Look for meaning and possibilities\n");
+	System.out.print("2. A. Interpret literally\t B. Look for meaning and possibilities\n");
 	sensing[0] = scan.nextLine();
 	if(!sensing[0].equalsIgnoreCase("A") && !sensing[0].equalsIgnoreCase("B"))
 	System.out.print("A or B expected as response\n Error, Please retry again\n");
@@ -59,7 +59,7 @@ public class MbtiPersonalityTest{
 	thinking[0] = "flag";
 	while(!thinking[0].equalsIgnoreCase("A") && !thinking[0].equalsIgnoreCase("B")){
 
-	System.out.print("1. A. Logical, thinking, questioning\t B. Empathetic, feeling, accomodating\n");
+	System.out.print("3. A. Logical, thinking, questioning\t B. Empathetic, feeling, accomodating\n");
 	thinking[0] = scan.nextLine();
 	if(!thinking[0].equalsIgnoreCase("A") && !thinking[0].equalsIgnoreCase("B"))
 	System.out.print("A or B expected as response\n Error, Please retry again\n");
@@ -76,7 +76,7 @@ public class MbtiPersonalityTest{
 	judging[0] = "flag";
 	while(!judging[0].equalsIgnoreCase("A") && !judging[0].equalsIgnoreCase("B")){
 
-	System.out.print("1. A. Organized, orderly\t B. Flexible, adaptable\n");
+	System.out.print("4. A. Organized, orderly\t B. Flexible, adaptable\n");
 	judging[0] = scan.nextLine();
 	if(!judging[0].equalsIgnoreCase("A") && !judging[0].equalsIgnoreCase("B"))
 	System.out.print("A or B expected as response\n Error, Please retry again\n");
@@ -92,7 +92,7 @@ public class MbtiPersonalityTest{
 	extroverted[0] = "flag";
 	while(!extroverted[0].equalsIgnoreCase("A") && !extroverted[0].equalsIgnoreCase("B")){
 
-	System.out.print("1. A. More outgoing, thinking out loud\t B. More reserved, think to yourself\n");
+	System.out.print("5. A. More outgoing, thinking out loud\t B. More reserved, think to yourself\n");
 	extroverted[0] = scan.nextLine();
 	if(!extroverted[0].equalsIgnoreCase("A") && !extroverted[0].equalsIgnoreCase("B"))
 	System.out.print("A or B expected as response\n Error, Please retry again\n");
@@ -107,7 +107,7 @@ public class MbtiPersonalityTest{
 	sensing[0] = "flag";
 	while(!sensing[0].equalsIgnoreCase("A") && !sensing[0].equalsIgnoreCase("B")){
 
-	System.out.print("1. A. Practical, realistic, experimental\t B. Imaginative, innovative, theoretical\n");
+	System.out.print("6. A. Practical, realistic, experimental\t B. Imaginative, innovative, theoretical\n");
 	sensing[0] = scan.nextLine();
 	if(!sensing[0].equalsIgnoreCase("A") && !sensing[0].equalsIgnoreCase("B"))
 	System.out.print("A or B expected as response\n Error, Please retry again\n");
@@ -123,7 +123,7 @@ public class MbtiPersonalityTest{
 	thinking[0] = "flag";
 	while(!thinking[0].equalsIgnoreCase("A") && !thinking[0].equalsIgnoreCase("B")){
 
-	System.out.print("1. A. Candid, straight, forward, frank\t B. Tactful, kind, encouraging\n");
+	System.out.print("7. A. Candid, straight, forward, frank\t B. Tactful, kind, encouraging\n");
 	thinking[0] = scan.nextLine();
 	if(!thinking[0].equalsIgnoreCase("A") && !thinking[0].equalsIgnoreCase("B"))
 	System.out.print("A or B expected as response\n Error, Please retry again\n");
@@ -139,7 +139,7 @@ public class MbtiPersonalityTest{
 	judging[0] = "flag";
 	while(!judging[0].equalsIgnoreCase("A") && !judging[0].equalsIgnoreCase("B")){
 
-	System.out.print("1. A. Plan, scheduled\t B. unplanned, spontaneous\n");
+	System.out.print("8. A. Plan, scheduled\t B. unplanned, spontaneous\n");
 	judging[0] = scan.nextLine();
 	if(!judging[0].equalsIgnoreCase("A") && !judging[0].equalsIgnoreCase("B"))
 	System.out.print("A or B expected as response\n Error, Please retry again\n");
@@ -156,7 +156,7 @@ public class MbtiPersonalityTest{
 	extroverted[0] = "flag";
 	while(!extroverted[0].equalsIgnoreCase("A") && !extroverted[0].equalsIgnoreCase("B")){
 
-	System.out.print("1. A. Seek many activities, public activities,  interaction with others\t B. seek private, solitary activities\n");
+	System.out.print("9. A. Seek many activities, public activities,  interaction with others\t B. seek private, solitary activities\n");
 	extroverted[0] = scan.nextLine();
 	if(!extroverted[0].equalsIgnoreCase("A") && !extroverted[0].equalsIgnoreCase("B"))
 	System.out.print("A or B expected as response\n Error, Please retry again\n");
@@ -171,7 +171,7 @@ public class MbtiPersonalityTest{
 	sensing[0] = "flag";
 	while(!sensing[0].equalsIgnoreCase("A") && !sensing[0].equalsIgnoreCase("B")){
 
-	System.out.print("1. A. Standard, usual, conventional\t B. Different, novel, unique\n");
+	System.out.print("10. A. Standard, usual, conventional\t B. Different, novel, unique\n");
 	sensing[0] = scan.nextLine();
 	if(!sensing[0].equalsIgnoreCase("A") && !sensing[0].equalsIgnoreCase("B"))
 	System.out.print("A or B expected as response\n Error, Please retry again\n");
@@ -179,7 +179,7 @@ public class MbtiPersonalityTest{
 	newSensing[0] = "A. Standard, usual, conventional";
 	
 	if (sensing[0].equalsIgnoreCase("B"))
-	newSensing[0] = "B. Differnt, novel, unique";	
+	newSensing[0] = "B. Different, novel, unique";	
 
 }
 
@@ -344,12 +344,101 @@ public class MbtiPersonalityTest{
 	}
 	
 
+	System.out.println("Hello "+name+" You selected\n");
 	
+	for(int index = 0; index < extroverted.length; index++){
+		System.out.println(newExtroverted[index]);
+		}
+	
+
+	int count = 0;
+	int counter = 0;
+	for(int index = 0; index < extroverted.length; index++){
+		if(extroverted[index].equalsIgnoreCase("A")) count += 1;
+		else
+		   counter += 1; 
+		}
+	System.out.println("Number of A selected: "+count+"\nNumber of B selected: "+counter+"\n");
+	
+	String resultExtrovertIntrovert;
+	if(count > counter) resultExtrovertIntrovert = "E";
+	else resultExtrovertIntrovert = "I";
+
+
+	for(int index = 0; index < sensing.length; index++){
+		System.out.println(newSensing[index]);
+		}
+	
+
+	count = 0;
+	counter = 0;
+	for(int index = 0; index < sensing.length; index++){
+		if(sensing[index].equalsIgnoreCase("A")) count += 1;
+		else
+		   counter += 1; 
+		}
+	System.out.println("Number of A selected: "+count+"\nNumber of B selected: "+counter+"\n");
+	
+	String resultSensingIntuitive;
+	if(count > counter) resultSensingIntuitive = "S";
+	else	resultSensingIntuitive = "N";
+
+	
+	
+	for(int index = 0; index < thinking.length; index++){
+		System.out.println(newThinking[index]);
+		}
+	
+	count = 0;
+	counter = 0;
+	for(int index = 0; index < thinking.length; index++){
+		if(thinking[index].equalsIgnoreCase("A")) count += 1;
+		else
+		   counter += 1; 
+		}
+	System.out.println("Number of A selected: "+count+"\nNumber of B selected: "+counter+"\n");
+	
+	String resultThinkingFeeling;
+	if(count > counter)resultThinkingFeeling = "T";
+	else resultThinkingFeeling = "F";
+
+
+	
+
+
+	for(int index = 0; index < judging.length; index++){
+		System.out.println(newJudging[index]);
+		}
+
+	count = 0;
+	counter = 0;
+	for(int index = 0; index < judging.length; index++){
+		if(judging[index].equalsIgnoreCase("A")) count += 1;
+		else
+		   counter += 1; 
+		}
+	System.out.println("Number of A selected: "+count+"\nNumber of B selected: "+counter+"\n");
+
+	String resultJudgingPerceptive;
+	if(count > counter) resultJudgingPerceptive = "J";
+	else resultJudgingPerceptive = "P"; 		
+
+
+
+
+
+
+
 
 	}
 
 
 }
+
+	
+
+
+
 
 
 
