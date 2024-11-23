@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Shapes{
+public class TypesOfTriangle{
 	public static void main(String[] args){
 
 	Scanner input = new Scanner(System.in);
@@ -14,6 +14,8 @@ public class Shapes{
 		System.out.print("Enter third length: ");
 		int thirdLength = input.nextInt();
 
+		while(firstLength > 0){
+		
 		if(firstLength == secondLength && secondLength == thirdLength){
 		System.out.print("Equilateral Triangle");
 		}
@@ -23,10 +25,9 @@ public class Shapes{
 		}
 		
 		if(firstLength != secondLength && secondLength != thirdLength){
-		System.out.print("Isosceles Triangle");
+		System.out.print("Scalene Triangle");
+			}
+
 		}
-
-
-
-}
+	}
 }
