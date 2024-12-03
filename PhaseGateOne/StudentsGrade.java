@@ -5,38 +5,58 @@ public class StudentsGrade{
 
 	Scanner input = new Scanner(System.in);
 
-	int [] numbers = new int[2];
-	int [] subjects = new int[2];
 
-	print("How many student do you have: ");
+	System.out.print("How many student do you have: ");
 	int students = input.nextInt();
 
-	print("How many subject do you have: ");
-	int subject = input.nextInt();
+	System.out.print("How many subject do you have: ");
+	int subjects = input.nextInt();
 
-	System.out.println("Saving >>>>>>>>>>>>>>>>>>>>>>");
-	System.out.println("Saved successfully");
+	println("Saving >>>>>>>>>>>>>>>>>>>>>>");
+	println("Saved successfully");
 
-	for(int number = 0; number < numbers.length; number++){
-		System.out.println("Enter score for student: ");
-		int studentScores = input.nextInt();
-	
-		System.out.println("Enter score for subject: ");
-		int subjectScores = input.nextInt();
+	for(int number = 1; number < students; number++){
+		println("Enter score for student 1");
+		println("Enter score for subject "+number);
+		int sub1 = input.nextInt();
 		
-		System.out.println("Saving >>>>>>>>>>>>>>>>>>>>>>");
-		System.out.println("Saved successfully");
+		println("Saving >>>>>>>>>>>>>>>>>>>>>>");
+		println("Saved successfully");
 	} 
-
-		System.out.print("========================================================================"
-
-
-	}
-	public static void print(String input){
-	System.out.print(input);
-	}
-	public static int total(){
 	
+	for(int number = 1; number < students; number++){
+		println("Enter score for student 2");
+		println("Enter score for subject "+number);
+		int sub2 = input.nextInt();
+		
+		println("Saving >>>>>>>>>>>>>>>>>>>>>>");
+		println("Saved successfully");
+
+	}
+	
+	for(int number = 1; number < students; number++){
+		println("Enter score for student 3");
+		println("Enter score for subject "+number);
+		int sub3 = input.nextInt();
+		
+		println("Saving >>>>>>>>>>>>>>>>>>>>>>");
+		println("Saved successfully");
+	}
+private static void 
+	println("============================================");
+	println("\tSTUDENT\tSUB1\tSUB2\tSUB3\tTOT\tAVE\tPOS");
+	println("============================================");
+	println("Student 1");
+	println("Student 2");
+	println("Student 3");
+	println("Student 4");
+	println("============================================");
+	println("============================================");
+	}
+	public static void println(String input){
+	System.out.println(input);
+	}
+
 
 
 }
