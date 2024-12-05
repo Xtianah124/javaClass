@@ -13,43 +13,33 @@ public class StudentsGrade{
 
 	println("Saving >>>>>>>>>>>>>>>>>>>>>>");
 	println("Saved successfully"); 
-	
-	int [] arrays = new int[students];
-	int [] array = new int[subjects];
 
-	for(int number = 1; number < students; number++){
-		for(int numbers = 1; numbers < subjects; numbers++){
-		println("Enter score for student "+number);
-		println("Enter score for subject "+numbers);
-		int subject = input.nextInt();
+	int[][] studentNumber = new int[students][subjects];
+	
+
+	for(int number = 0; number < students; number++){
+		for(int numbers = 0; numbers < subjects; numbers++){
+
+		System.out.printf("Enter score for student %d%n", number +1);
+		System.out.printf("Enter score for subject %d%n", numbers +1);
+		int num = input.nextInt();
 		
 		println("Saving >>>>>>>>>>>>>>>>>>>>>>");
 		println("Saved successfully");
-	} 
 	}
 }
-  public static void println(String enter){
+		
+	println("===========================================================");
+	println("STUDENT  \tTOT \tAVE \tPOS" );
+	println("===========================================================");
+	
+	println("==========================================================");
+	println("==========================================================");
+	
+
+public static void println(String enter){
 	System.out.println(enter);
-  }
-  private static int total(){
-	total += subject;
-	print(total);
-  }
-  
-  private static void reportCard(int subjects, int total){
+  } 
 
 	
-	println("=====================================================");
-	println("STUDENTS \tSUB1 \tSUB2 \tSUB3 \tTOT \tAVE \tPOS");
-	println("=====================================================");
-	println("Student 1  subjects%s, total%s");
-	println("Student 2");
-	println("Student 3");
-	println("Student 4");
-	println("====================================================");
-	println("====================================================");
-	}
-	
-
-
 }
