@@ -107,7 +107,7 @@ public static void withdraw(){
 	displayMenu();
 }
 
-
+2
 public static void checkAccountBalance(){
 	Scanner input = new Scanner(System.in);
 
@@ -155,26 +155,26 @@ public static void changePin(){
 
 }
 
-public static void closeAccount(){
-	Scanner input = new Scanner(System.in);
+	public static void closeAccount(){
+		Scanner input = new Scanner(System.in);
 	
-	print("Dear customer, are you sure you want to close this account, yes/no: ");
-	String answer = input.nextLine();
+		print("Dear customer, are you sure you want to close this account, yes/no: ");
+		String answer = input.nextLine();
 	
-	while(true){
+		while(true){
 
-	print("provide account details: ");
-	String details = input.nextLine();
+			print("provide account details: ");
+			String details = input.nextLine();
 
-	print("Transfer funds: ");
-	String funds = input.nextLine();
+			print("Transfer funds: ");
+			String funds = input.nextLine();
 
-	print("Reasons for closing account: ");
-	String close = input.nextLine();
-	break;
+			print("Reasons for closing account: ");
+			String close = input.nextLine();
+			break;
 
-	System.out.print("
+			System.out.print("
+		}
 	}
-   }
 
 }
