@@ -1,4 +1,4 @@
-
+import  java.io.*;
 import java.util.ArrayList;
 
 public class Diary{
@@ -29,6 +29,6 @@ public class Diary{
   }
   
   public String getDiaryName(){
-    retrun this.name;
+    return this.name;
   }
 }

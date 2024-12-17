@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Milespergallon{
+public class MilesPerGallon{
 public static void main(String[] args){
 
 Scanner input = new Scanner(System.in);
@@ -16,7 +16,7 @@ int totalMiles = input.nextInt();
 int overallaveragemilesgallon = (totalMiles / totalGallons);
 System.out.print("The overall average milesgallon was", overallaveragemlesgallon);
 
-System.out.printf("Enter -1 to stop or any number to continue");
+System.out.print("Enter -1 to stop or any number to continue");
 System.out.print(sentinelValue);
 
 

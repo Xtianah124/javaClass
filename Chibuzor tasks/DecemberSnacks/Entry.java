@@ -1,3 +1,4 @@
+
 public class Entry{
   private int currentId = 1;
   private int id;
@@ -20,7 +21,8 @@ public class Entry{
   }
   
   public void updateEntryBody(String newBody){
-    this.body = newBody;  
+    this.body = newBody;
+
   }
   
   public void updateEntryTitle(String newTitle){
