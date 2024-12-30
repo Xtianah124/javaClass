@@ -8,6 +8,5 @@ public class CompoundInterestTest {
     public void testCompoundInterest() {
         CompoundInterest compoundInterest = new CompoundInterest();
 
-
 }
 }

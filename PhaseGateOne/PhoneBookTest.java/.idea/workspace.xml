@@ -5,34 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c16908e-487b-45d2-9d72-fd92dba52e5c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../javaClass.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../out/production/javaClass/javaClass.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../personal/Account/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../personal/Account/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../personal/Account/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../personal/Account/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../personal/Account/Account.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../personal/Account/src/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../personal/untitled/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../personal/untitled/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../personal/untitled/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../personal/untitled/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../personal/untitled/src/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../personal/untitled/untitled.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../26-10-24/Astericks.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../26-10-24/Astericks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Chapter4/milespergallon.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Chapter4/milespergallon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Chibuzor tasks/DecemberSnacks/Diary.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Chibuzor tasks/DecemberSnacks/Diary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Chibuzor tasks/DecemberSnacks/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Chibuzor tasks/DecemberSnacks/Entry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Mbti/Mbti.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Mbti/Mbti.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Contact.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CreditCardValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CreditCardValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CreditCardValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CreditCardValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PhoneBook.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chibuzor tasks/DecemberSnacks/CompoundInterestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Chibuzor tasks/DecemberSnacks/CompoundInterestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Mbti/MbtiPersonalityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Mbti/MbtiPersonalityTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/javaClass/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../../out/production/javaClass/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/javaClass/PhaseGateOne/PhoneBookTest.java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../out/production/javaClass/PhaseGateOne/PhoneBookTest.java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../personal/Account/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../personal/Account/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../personal/Account/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../personal/Account/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../personal/Account/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../personal/Account/Account.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../personal/Account/src/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../personal/Account/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +79,8 @@
       <workItem from="1735294750192" duration="631000" />
       <workItem from="1735326435416" duration="1190000" />
       <workItem from="1735482560779" duration="596000" />
+      <workItem from="1735840067235" duration="36000" />
+      <workItem from="1736090433807" duration="595000" />
     </task>
     <servers />
   </component>
