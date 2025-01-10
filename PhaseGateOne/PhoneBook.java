@@ -1,8 +1,10 @@
+import PhaseGateOne.Contact;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class PhoneBook {
+public class PhoneBook{
     private static final List<Contact> contacts= new ArrayList<>();
     Contact contact  = new Contact();
 
@@ -45,12 +47,12 @@ public class PhoneBook {
         print("Enter phone number:");
         String phoneNumber = input.nextLine();
         contact.setFirstName(firstName);
-        contact.setLastName(lastName);
+        contact.setLastName();
         contact.setPhoneNumber(phoneNumber);
-        contact.setAdded(true);
+        contact.setAdded();
         contacts.add(contact);
 
-        return contact.isAdded() ? contact : null;
+        return contact;
     }
 
     public void removeContact(){

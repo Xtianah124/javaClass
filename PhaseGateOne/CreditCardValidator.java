@@ -1,27 +1,35 @@
  import java.util.Scanner;
 
-public class CreditCardValidator{
+public class CreditCardValidator {
 	public static void main(String[] args) {
 
-		Scanner input = new Scanner(System.in);
+	}
+
+	public static boolean validateCreditCard(int[] cardNumber) {
 
 		int sum = 0;
 
-		System.out.print("Enter your card number: ");
-		String userInput = input.nextLine();
+		for (int i = 0; i < cardNumber.length; i++) {
 
-		if (userInput.length() < 13 || userInput.length() > 15) System.out.println("Error input the correct numbers: ");
+			if (cardNumber[i] == 4) {
+				System.out.print("Visa Cards");
+			} else if (cardNumber[i] == 5) {
+				System.out.print("Mastercard Cards");
+			} else if (cardNumber[i] == 6) {
+				System.out.print("Discover Cards");
+			} else if (cardNumber[i] == 37) {
+				System.out.print("American Express Cards");
+			}
+		}
+		return true;
+	}
+	public static boolean validateCreditCardLength(int[] cardNumber) {
 
-		for (int index = 0; index <= userInput.length(); index += 2) {
-			int number = (Integer.parseInt(String.valueOf(userInput.charAt(index))) * 2);
-			System.out.println(number);
-
-			if (number > 9) sum += number;
-			sum += number;
+		if (cardNumber.length < 13 && cardNumber.length > 16) {
+			return false;
+		} else {
+			return true;
 		}
 	}
-	//public static void addition(){
-
-	//}
-
 }
+

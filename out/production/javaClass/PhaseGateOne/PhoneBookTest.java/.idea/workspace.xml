@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c16908e-487b-45d2-9d72-fd92dba52e5c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Chibuzor tasks/DecemberSnacks/CompoundInterestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Chibuzor tasks/DecemberSnacks/CompoundInterestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/javaClass/PhaseGateOne/PhoneBookTest.java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../out/production/javaClass/PhaseGateOne/PhoneBookTest.java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/javaClass/personal/Account/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/javaClass/personal/Account/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/javaClass/personal/Account/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/javaClass/personal/Account/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/javaClass/personal/Account/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/javaClass/personal/Account/Account.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +29,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Xtianah124&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Xtianah124/javaClass.git&quot;,
+    &quot;accountId&quot;: &quot;3d33391b-3b43-4124-b208-b8a58bc40ce4&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -67,6 +85,9 @@
       <workItem from="1735326435416" duration="1190000" />
       <workItem from="1735482560779" duration="596000" />
       <workItem from="1735840067235" duration="36000" />
+      <workItem from="1736090433807" duration="595000" />
+      <workItem from="1736115926781" duration="598000" />
+      <workItem from="1736139871005" duration="46000" />
     </task>
     <servers />
   </component>

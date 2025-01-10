@@ -40,7 +40,7 @@ public class CheckOutApp{
 
             print("do u want to buy something else? (yes/no): ");
             String userInput = input.nextLine();
-            if (userInput != userInput.equalsIgnoreCase("yes"))  break;
+            if ( userInput.equalsIgnoreCase("yes"))  break;
             input.nextLine();
         }
 
@@ -60,6 +60,7 @@ public class CheckOutApp{
         return total * (discount/100);
     }
     private static  void invoice(String cashierName, String customerName, Date date, List <String> itemList, double total, double discount, double vat, double billTotal){
+        Scanner input = new Scanner(System.in);
 
         print("====================================");
         print("CHRISTY STORE\nMAIN BRANCH\nLOCATION: 312 SEMICOLON WAY.\nTEL: 000000");
@@ -99,8 +100,8 @@ public class CheckOutApp{
         System.out.printf("VAT: %.2f%n", vat);
         print("-------------------------------------------");
         System.out.printf("BILL TOTAL %.2f%n", billTotal);
-	System.out.printf("AMOUNT PAID %.2f%n", amountpaid);
-	System.out.printf("BALANCE %.2f", balance);
+	System.out.printf("AMOUNT PAID %.2f%n");
+	System.out.printf("BALANCE %.2f");
         print("============================================");
 		print("THANK YOU FOR YOUR PATRONAGE");
 	print("============================================");

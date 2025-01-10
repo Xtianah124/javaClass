@@ -1,9 +1,20 @@
+
 import java.util.Scanner;
+import java.util.Random;
 
 public class ATMachineApp{
 	public static void main(String[] args){
 
 	displayMenu();
+	}
+
+	private static String generateAccountNumber(){
+		Random rand = new Random();
+		String accountNumber = "";
+		for(int i = 0; i<10; i++){
+			accountNumber += rand.nextInt(10);
+		}
+		return accountNumber;
 	}
 
 
@@ -58,9 +69,24 @@ public static void createAnAccount(){
 	print("Enter date of birth: ");
 	String dateOfBirth = input.nextLine();
 
-	print("Enter your pin: ");
+	print("Enter your phone number: ");
+	String phoneNumber = input.nextLine();
+
+	print("Set your login pin: ");
+	int loginPin = input.nextInt();
+
+	print("Set your pin: ");
 	int pin = input.nextInt();
+
+	print("Confirm your pin: ");
+	int confirmPin = input.nextInt();
+
+	String accountNumber = generateAccountNumber();
+	System.out.println("Your account number is: " + accountNumber);
+
+	print("Account successfully created");
 	displayMenu();
+
 	}
 
 
@@ -73,8 +99,8 @@ public static void signIn(){
 	print("Enter your last name: ");
 	String lastName = input.nextLine();
 
-	print("Enter your pin: ");
-	int pin = input.nextInt();
+	print("Enter your loginPin: ");
+	int loginPin = input.nextInt();
 	displayMenu();
 	}
 
@@ -90,6 +116,7 @@ public static void depositMoney(){
 
 	print("Successfully transferred "+amount);
 
+	displayMenu();
 
 	}
 
@@ -102,12 +129,29 @@ public static void withdraw(){
 
 	print("Enter transaction pin: ");
 	int pin = input.nextInt();
-
 	print("Withdraw successful");
+
+	System.out.println("do you want to withdraw again: ");
+	String user_answer = input.next();
+
+	while(true){
+
+		if(user_answer.equals("no")) break;
+
+		print("Enter amount: ");
+		int amount2 = input.nextInt();
+
+		print("Enter transaction pin: ");
+		int pin2 = input.nextInt();
+
+		print("Withdraw successful");
+
+	}
+
 	displayMenu();
 }
 
-2
+
 public static void checkAccountBalance(){
 	Scanner input = new Scanner(System.in);
 
@@ -160,8 +204,9 @@ public static void changePin(){
 	
 		print("Dear customer, are you sure you want to close this account, yes/no: ");
 		String answer = input.nextLine();
-	
+
 		while(true){
+			if(answer.equals("no")) break;
 
 			print("provide account details: ");
 			String details = input.nextLine();
@@ -171,9 +216,10 @@ public static void changePin(){
 
 			print("Reasons for closing account: ");
 			String close = input.nextLine();
-			break;
 
+			displayMenu();
 		}
+
 	}
 
 }

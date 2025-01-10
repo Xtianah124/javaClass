@@ -1,40 +1,44 @@
 import java.util.Scanner;
 
-public class Cryptography{
-	public static void main(String[] args){
-	
-	Scanner input = new Scanner(System.in);
+public class Cryptography {
+	public static void main(String[] args) {
 
-	System.out.print("Enter message to be encrypted: ");
-	String message = input.nextLine();
+		Scanner input = new Scanner(System.in);
 
-	System.out.print("Enter the key: ");
-	int key = input.nextInt();
+		System.out.print("Enter message to be encrypted: ");
+		String message = input.nextLine();
 
-	String encrypted = encrypteWords(message, key);
-	decryptedWords(encrypted, key);
+		System.out.print("Enter the key: ");
+		int key = input.nextInt();
+
+		String encrypted = encrypteWords(message, key);
+		System.out.println("Encrypted words: " + encrypted);
+		decrypteWords(encrypted, key);
 	}
 
-	public static String encrypteWords(String message, int key){
-	
-	String encrypted = "";
-	
-	for(int index = 0; index < message.length(); index++){
-	char temp = message.charAt(index);
-	encrypted += (temp += key);
-	}
-	System.out.println(encrypted);
-	return encrypted;
-	}
-	
-	public static void decryptedWords(String encrypted, int key){
-	
-	String decrypted = "";
+	public static String encrypteWords(String message, int key) {
 
-	for(int index = 0; index < encrypted.length(); index++){
-	char temp = encrypted.charAt(index);
-	decrypted += (temp -= key);
+		String encrypted = "";
+
+		for (int index = 0; index < message.length(); index++) {
+			char temp = message.charAt(index);
+			temp += key;
+			encrypted += temp;
+		}
+		return encrypted;
+
 	}
-	System.out.print(decrypted);
+
+	public static void decrypteWords(String encrypted, int key) {
+		String decrypted = "";
+
+		for (int index = 0; index < encrypted.length(); index++) {
+			char temp = encrypted.charAt(index);
+			temp -= key;
+			decrypted += temp;
+		}
+
+		System.out.print(decrypted);
+
 	}
 }

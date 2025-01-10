@@ -34,7 +34,7 @@ public class MbtiPersonalityTest {
 
 		};
 
-		System.out.print("What is your name?: ");
+		System.out.print("What is your name? ");
 		String name = input.nextLine();
 		for (int index = 0; index < 4; index++) {
 			for (int i = index; i < questions.length; i += 4) {
@@ -42,7 +42,7 @@ public class MbtiPersonalityTest {
 				System.out.print(questions[i][1]);
 				System.out.println();
 				String answer = input.nextLine();
-				if (answer.equalsIgnoreCase("a") || answer.equalsIgnoreCase("b")) {
+				if (answer.equalsIgnoreCase("a") || answer.equalsIgnoreCase("b")   ) {
 					if (answer.equalsIgnoreCase("a")) {
 						answersA[index]++;
 						responses[i] = questions[i][0];
@@ -225,21 +225,3 @@ public class MbtiPersonalityTest {
 }
 
 	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
