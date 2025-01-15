@@ -1,17 +1,17 @@
 import java.util.Scanner;
 
-public class Number{
+public class Arr{
 	public static void main(String[] args){
 
 	Scanner input = new Scanner(System.in);
 
-	int [] arr = new int[5];
-
 	System.out.print("Enter a number: ");
 	int number = input.nextInt();
 
-	for(number = arr.length; number > 0; number--){
-		System.out.print(number);
+	int[] numbers = new int[number];
+
+	for(int num = number;num > 0; num--){
+		System.out.print(num);
 		}
 	}
 }

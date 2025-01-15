@@ -3,6 +3,7 @@ import java.util.Scanner;
 import java.util.Random;
 
 public class ATMachineApp{
+
 	public static void main(String[] args){
 
 	displayMenu();

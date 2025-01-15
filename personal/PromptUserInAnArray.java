@@ -1,16 +1,16 @@
 import java.util.Scanner;
 
-public class Number{
+public class PromptUserInAnArray{
 	public static void main(String[] args){
 
 	Scanner input = new Scanner(System.in);
 
-	int [] arr = new int[5];
-
 	System.out.print("Enter a number: ");
-	int number = input.nextInt();
+	int userInput = input.nextInt(); 
 
-	for(number = arr.length; number > 0; number--){
+	int[] arr = new int[userInput];
+
+	for(int number = 0; number < userInput; number++){
 		System.out.print(number);
 		}
 	}
