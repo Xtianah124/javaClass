@@ -73,19 +73,13 @@ public static void createAnAccount(){
 	print("Enter your phone number: ");
 	String phoneNumber = input.nextLine();
 
-	print("Set your login pin: ");
-	int loginPin = input.nextInt();
-
-	print("Set your pin: ");
-	int pin = input.nextInt();
-
-	print("Confirm your pin: ");
-	int confirmPin = input.nextInt();
-
 	String accountNumber = generateAccountNumber();
 	System.out.println("Your account number is: " + accountNumber);
 
 	print("Account successfully created");
+
+	Account account = new Account(firstName,lastName, dateOfBirth, phoneNumber, accountNumber);
+
 	displayMenu();
 
 	}
@@ -101,7 +95,11 @@ public static void signIn(){
 	String lastName = input.nextLine();
 
 	print("Enter your loginPin: ");
-	int loginPin = input.nextInt();
+	String loginPin = input.nextLine();
+	/**while(!loginPin.matches("/d//")){
+		System.out.println("invalid pin");
+		loginPin = input.nextLine();
+	}**/
 	displayMenu();
 	}
 
