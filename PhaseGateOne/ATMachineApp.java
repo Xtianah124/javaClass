@@ -1,4 +1,6 @@
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 import java.util.Random;
 
@@ -146,9 +148,10 @@ public static void withdraw(){
 		print("Withdraw successful");
 
 	}
-
+	List<Account> accountList = new ArrayList<>();
 	displayMenu();
 }
+
 
 
 public static void checkAccountBalance(){
